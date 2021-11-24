@@ -1,12 +1,3 @@
-/* @font-face {
-    font-family: 'OpenSans';
-    src:url(../font/OpenSans.ttf)
-}
-
-li {
-    font-family: 'OpenSans';
-} */
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -156,4 +147,94 @@ a {
     font-size: 40px;
     font-weight: 600;
     color: #192b59;
+}
+.page-screen img {
+    width: 700px;
+}
+.page-clients h2 {
+    font-size: 40px;
+    font-weight: 600px;
+    color: #192b59;
+}
+.page-clients h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+    color: #3c9ce9;
+    text-transform: uppercase;
+}
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #192b59;
+}
+.box-clients p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5a6789;
+}
+
+.page-plan h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0a2090;
+}
+.page-plan h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #01a7eb;
+    display: block;
+}
+.page-plan a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+}
+
+.box-price ul{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5a6789;
+}
+
+.box-price-item h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0a2090;
+}
+.box-price-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+}
+.box-price-item h3 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0a2090;
+}
+
+.page-form h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #0a2090;
+}
+.page-form form{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+.page-form button{
+    background-color: #1085e4;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+.footer a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1085e4;
+    text-transform: uppercase;
 }
