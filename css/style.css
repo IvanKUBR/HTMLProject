@@ -117,7 +117,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 55x;
+    margin-top: 55px;
     margin-bottom: 305px;
 }
 
@@ -144,7 +144,7 @@ h1 {
     background-image: url(../img/BackGBlue.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    padding: 100px 0;
 }
 
 .list-company{
@@ -198,7 +198,7 @@ a {
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1;
 }
 
 .grid h2 span {
@@ -525,15 +525,10 @@ a {
 }
 
 .robot{
-    display: block;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-right: -25%;
 }
 
 .box-subscribe-child{
     flex-basis: 49%;
-    margin-left: -25%;
 }
 .box-subscribe-user input{
     border: 2px solid #3f5cb1;
