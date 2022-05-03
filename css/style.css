@@ -524,8 +524,7 @@ a {
     right: 5px;
 }
 
-.robot{
-}
+
 
 .box-subscribe-child{
     flex-basis: 49%;
@@ -609,17 +608,126 @@ a {
     margin: 0 auto;
 }
 
-.page-app h2{
+.page-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 450px;
+    line-height: 1.1;
+    color: #192b59;
+}
+.page-app p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #bfc4d3;
+    width: 700px;
+}
+
+/* ANYTYPES */
+.page-anytype {
+    background-image: url(../img/BackGr3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.any_any {
+    margin-left: 200px;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttx {
+    max-width: 550px;
+    margin: 0 100px;
+    padding: 0;
+    line-height: 1.1;
+}
+.any_any h2 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+    color:black;
+}
+.any_any p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5bfd3;
+}
+.any_any button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #9fcef4;
+    background-color: #1085e4;
+}
+
+/* ANYTYPES */
+
+/* EASY */
+
+.page-easy {
+    background-image: url(../IMG/BackGr4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.easy-body {
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.easetext {
+    max-width: 550px;
+    margin: 0 150px;
+    padding: 0;
+    line-height: 1.1;
+}
+.page-easy h2 {
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
 }
+.page-easy p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5bfd3;
+}
+.page-easy button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #9fcef4;
+    background-color: #1085e4;
+}
 
+/* EASY */
 .Ava {
     font-size: 16px;
     font-weight: 700;
     color: #bacbdc;
     text-transform: uppercase
+}
+
+.slaid {
+    height: 400px;
+    margin:100px 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ulin {
+    display: flex;
+    list-style-type: none;
+    margin-left: -120px;
+    justify-content: space-evenly;
+    width: 534px;
 }
 
 .page-anytype h2 {
@@ -825,4 +933,116 @@ a {
     font-weight: 400;
     color: #1085e4;
     text-transform: uppercase;
+}
+
+.page-form {
+    background-image: url(../img/BackGr6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fugures {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fugures img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.fugures form {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 20px;
+}
+
+.fugures h2 {
+    font-size: 40px;
+    font-weight: 600px;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+.fugures input {
+    margin: 10px;
+    border: 1px solid #dce1e5;
+    border-radius: 40px;
+    color: white;
+    padding: 35px;
+    width: 500px;
+}
+  
+.fugures input:focus {
+    outline: none;
+}
+  
+
+.fugures input:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.fugures textarea {
+    margin: 10px;
+    border: 1px solid #dce1e5;
+    border-radius: 40px;
+    color: white;
+    padding: 30px 10px 120px 40px;
+    width: 500px;
+}
+
+.fugures textarea:focus {
+    color: black;
+    background-color: #fff;
+}
+
+.fugures textarea:focus {
+    outline: none;
+    line-height: 1.1;
+}
+
+.fugures button {
+    max-width: 250px;
+}
+
+.fugures span {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: rgb(36, 23, 122);
+}
+
+.konec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 250px;
+    padding: 20px;
+}
+
+.social {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+
+}
+.social>li {
+    padding: 0 15px;
+}
+
+.konec a {
+    color:#00bffe ;
 }
